@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: frontend
+  description: Meridian frontend service
+spec:
+  type: frontend
+  lifecycle: production
+  owner: eng-team
+  system: public-websites
