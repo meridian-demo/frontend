@@ -8,7 +8,7 @@ on:
       - "**"
 jobs:
   frontend_service_build:
-    runs-on: ubuntu-latest
+    runs-on: meridian
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
